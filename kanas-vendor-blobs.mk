@@ -26,7 +26,6 @@ PROPRIETARY_FILES := \
 	bin/gpsd \
 	bin/lpm \
 	bin/macloader \
-	bin/modemd \
 	bin/nvitemd \
 	bin/phoneserver \
 	bin/refnotify \
