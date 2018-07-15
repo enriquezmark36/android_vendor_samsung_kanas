@@ -16,7 +16,6 @@
 #
 
 PROPRIETARY_FILES := \
-	app/SandroidTeamStats/SandroidTeamStats.apk \
 	bin/at_distributor \
 	bin/engpc \
 	bin/ext_data.sh \
