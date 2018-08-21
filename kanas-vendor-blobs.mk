@@ -68,6 +68,12 @@ PROPRIETARY_FILES := \
 	etc/wifi/bcmdhd_mfg.bin \
 	etc/wifi/nvram_net.txt \
 	etc/wifi/nvram_mfg.txt \
+	etc/MSLConfig.txt \
+	etc/mrvl_agps_default.conf \
+	etc/mrvl_gps_platform.conf \
+	etc/pxa_testcfg.ini \
+	etc/rom.bin \
+	lib/libagps_hal.so \
 	media/battery_charging_5.qmg \
 	media/battery_charging_10.qmg \
 	media/battery_charging_15.qmg \
