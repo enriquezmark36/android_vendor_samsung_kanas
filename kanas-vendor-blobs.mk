@@ -35,7 +35,6 @@ PROPRIETARY_FILES := \
 	lib/hw/camera2.sc8830.so \
 	lib/hw/camera.sc8830.so \
 	lib/hw/gps.default.so \
-	lib/hw/sensors.sc8830.so \
 	lib/libatchannel.so \
 	lib/libatparser.so \
 	lib/libboost.so \
