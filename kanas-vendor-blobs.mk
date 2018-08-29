@@ -22,7 +22,6 @@ PROPRIETARY_FILES := \
 	bin/ext_kill.sh \
 	bin/ext_symlink.sh \
 	bin/gps.cer \
-	bin/gpsd \
 	bin/lpm \
 	bin/macloader \
 	bin/modemd \
