@@ -63,6 +63,7 @@ PROPRIETARY_FILES := \
 	lib/libwvm.so \
 	vendor/firmware/BCM4330B1_002.001.003.1025.1303.hcd \
 	vendor/firmware/vbc_eq \
+	etc/wifi/bcmdhd_p2p.bin \
 	etc/wifi/bcmdhd_apsta.bin \
 	etc/wifi/bcmdhd_sta.bin \
 	etc/wifi/bcmdhd_mfg.bin \
