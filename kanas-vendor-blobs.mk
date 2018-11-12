@@ -68,6 +68,7 @@ PROPRIETARY_FILES := \
 	etc/wifi/bcmdhd_mfg.bin \
 	etc/wifi/nvram_net.txt \
 	etc/wifi/nvram_mfg.txt \
+	etc/gps.conf \
 	etc/MSLConfig.txt \
 	etc/mrvl_agps_default.conf \
 	etc/mrvl_gps_platform.conf \
