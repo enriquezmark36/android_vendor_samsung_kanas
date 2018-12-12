@@ -22,9 +22,9 @@ PROPRIETARY_FILES := \
 	bin/ext_kill.sh \
 	bin/ext_symlink.sh \
 	bin/gps.cer \
-	bin/gpsd \
 	bin/lpm \
 	bin/macloader \
+	bin/modemd \
 	bin/nvitemd \
 	bin/phoneserver \
 	bin/refnotify \
@@ -35,7 +35,6 @@ PROPRIETARY_FILES := \
 	lib/hw/camera2.sc8830.so \
 	lib/hw/camera.sc8830.so \
 	lib/hw/gps.default.so \
-	lib/hw/sensors.sc8830.so \
 	lib/libatchannel.so \
 	lib/libatparser.so \
 	lib/libboost.so \
@@ -64,11 +63,19 @@ PROPRIETARY_FILES := \
 	lib/libwvm.so \
 	vendor/firmware/BCM4330B1_002.001.003.1025.1303.hcd \
 	vendor/firmware/vbc_eq \
+	etc/wifi/bcmdhd_p2p.bin \
 	etc/wifi/bcmdhd_apsta.bin \
 	etc/wifi/bcmdhd_sta.bin \
 	etc/wifi/bcmdhd_mfg.bin \
 	etc/wifi/nvram_net.txt \
 	etc/wifi/nvram_mfg.txt \
+	etc/gps.conf \
+	etc/MSLConfig.txt \
+	etc/mrvl_agps_default.conf \
+	etc/mrvl_gps_platform.conf \
+	etc/pxa_testcfg.ini \
+	etc/rom.bin \
+	lib/libagps_hal.so \
 	media/battery_charging_5.qmg \
 	media/battery_charging_10.qmg \
 	media/battery_charging_15.qmg \
