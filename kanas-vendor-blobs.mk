@@ -16,11 +16,6 @@
 #
 
 PROPRIETARY_FILES_VENDOR := \
-
-
-
-# All other files that really needed to go to the /system/ partition
-PROPRIETARY_FILES_SYSTEM := \
 	bin/at_distributor \
 	bin/engpc \
 	bin/ext_data.sh \
@@ -32,6 +27,19 @@ PROPRIETARY_FILES_SYSTEM := \
 	bin/nvitemd \
 	bin/phoneserver \
 	bin/refnotify \
+	etc/MSLConfig.txt \
+	etc/mrvl_agps_default.conf \
+	etc/mrvl_gps_platform.conf \
+	etc/pxa_testcfg.ini \
+	etc/rom.bin \
+	etc/wifi/bcmdhd_p2p.bin \
+	etc/wifi/bcmdhd_apsta.bin \
+	etc/wifi/bcmdhd_sta.bin \
+	etc/wifi/bcmdhd_mfg.bin \
+	etc/wifi/nvram_net.txt \
+	etc/wifi/nvram_mfg.txt \
+	etc/gps.conf \
+	lib/libagps_hal.so \
 	lib/egl/libEGL_mali.so \
 	lib/egl/libGLESv1_CM_mali.so \
 	lib/egl/libGLESv2_mali.so \
@@ -60,21 +68,6 @@ PROPRIETARY_FILES_SYSTEM := \
 	lib/libsprd_agps_agent.so \
 	lib/libQmageDecoder.so \
 	lib/libwvm.so \
-	vendor/firmware/BCM4330B1_002.001.003.1025.1303.hcd \
-	vendor/firmware/vbc_eq \
-	etc/wifi/bcmdhd_p2p.bin \
-	etc/wifi/bcmdhd_apsta.bin \
-	etc/wifi/bcmdhd_sta.bin \
-	etc/wifi/bcmdhd_mfg.bin \
-	etc/wifi/nvram_net.txt \
-	etc/wifi/nvram_mfg.txt \
-	etc/gps.conf \
-	etc/MSLConfig.txt \
-	etc/mrvl_agps_default.conf \
-	etc/mrvl_gps_platform.conf \
-	etc/pxa_testcfg.ini \
-	etc/rom.bin \
-	lib/libagps_hal.so \
 	media/battery_charging_5.qmg \
 	media/battery_charging_10.qmg \
 	media/battery_charging_15.qmg \
@@ -99,6 +92,11 @@ PROPRIETARY_FILES_SYSTEM := \
 	media/battery_error.qmg \
 	media/chargingwarning.qmg \
 	media/Disconnected.qmg
+
+# All other files that really needed to go to the /system/ partition
+PROPRIETARY_FILES_SYSTEM := \
+	vendor/firmware/BCM4330B1_002.001.003.1025.1303.hcd \
+	vendor/firmware/vbc_eq
 
 PRODUCT_COPY_FILES += \
 	$(foreach f,$(PROPRIETARY_FILES_SYSTEM),vendor/samsung/kanas/proprietary/$(f):system/$(f)) \
