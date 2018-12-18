@@ -29,18 +29,15 @@ PROPRIETARY_FILES_SYSTEM := \
 	bin/gps.cer \
 	bin/lpm \
 	bin/macloader \
-	bin/modemd \
 	bin/nvitemd \
 	bin/phoneserver \
 	bin/refnotify \
-	bin/rild \
 	lib/egl/libEGL_mali.so \
 	lib/egl/libGLESv1_CM_mali.so \
 	lib/egl/libGLESv2_mali.so \
 	lib/hw/camera2.sc8830.so \
 	lib/hw/camera.sc8830.so \
 	lib/hw/gps.default.so \
-	lib/libatchannel.so \
 	lib/libatparser.so \
 	lib/libboost.so \
 	lib/libfactoryutil.so \
@@ -59,10 +56,7 @@ PROPRIETARY_FILES_SYSTEM := \
 	lib/libomx_mp3dec_sprd.so \
 	lib/libomx_vpxdec_hw_sprd.so \
 	lib/libreference-ril_sp.so \
-	lib/libril.so \
-	lib/librilutils.so \
 	lib/libsecnativefeature.so \
-	lib/libsecril-client.so \
 	lib/libsprd_agps_agent.so \
 	lib/libQmageDecoder.so \
 	lib/libwvm.so \
