@@ -15,7 +15,12 @@
 # limitations under the License.
 #
 
-PROPRIETARY_FILES := \
+PROPRIETARY_FILES_VENDOR := \
+
+
+
+# All other files that really needed to go to the /system/ partition
+PROPRIETARY_FILES_SYSTEM := \
 	bin/at_distributor \
 	bin/engpc \
 	bin/ext_data.sh \
@@ -99,7 +104,8 @@ PROPRIETARY_FILES := \
 	media/battery_batteryerror.qmg \
 	media/battery_error.qmg \
 	media/chargingwarning.qmg \
-	media/Disconnected.qmg \
+	media/Disconnected.qmg
 
 PRODUCT_COPY_FILES += \
-	$(foreach f,$(PROPRIETARY_FILES),vendor/samsung/kanas/proprietary/$(f):system/$(f))
+	$(foreach f,$(PROPRIETARY_FILES_SYSTEM),vendor/samsung/kanas/proprietary/$(f):system/$(f)) \
+	$(foreach f,$(PROPRIETARY_FILES_VENDOR),vendor/samsung/kanas/proprietary/$(f):system/vendor/$(f))
