@@ -29,6 +29,7 @@ PROPRIETARY_FILES := \
 	bin/phoneserver \
 	bin/refnotify \
 	bin/rild \
+	framework/com.google.widevine.software.drm.jar \
 	lib/egl/libEGL_mali.so \
 	lib/egl/libGLESv1_CM_mali.so \
 	lib/egl/libGLESv2_mali.so \
@@ -63,6 +64,9 @@ PROPRIETARY_FILES := \
 	lib/libwvm.so \
 	vendor/firmware/BCM4330B1_002.001.003.1025.1303.hcd \
 	vendor/firmware/vbc_eq \
+	vendor/lib/libWVStreamControlAPI_L3.so \
+	vendor/lib/libwvdrm_L3.so \
+	vendor/lib/mediadrm/libwvdrmengine.so \
 	etc/wifi/bcmdhd_p2p.bin \
 	etc/wifi/bcmdhd_apsta.bin \
 	etc/wifi/bcmdhd_sta.bin \
@@ -73,6 +77,7 @@ PROPRIETARY_FILES := \
 	etc/MSLConfig.txt \
 	etc/mrvl_agps_default.conf \
 	etc/mrvl_gps_platform.conf \
+	etc/permissions/com.google.widevine.software.drm.xml \
 	etc/pxa_testcfg.ini \
 	etc/rom.bin \
 	lib/libagps_hal.so \
