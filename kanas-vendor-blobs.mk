@@ -35,7 +35,7 @@ PROPRIETARY_FILES := \
 	lib/egl/libGLESv2_mali.so \
 	lib/hw/camera2.sc8830.so \
 	lib/hw/camera.sc8830.so \
-	lib/hw/gps.default.so \
+	lib/hw/gps.sc8830.so \
 	lib/libatchannel.so \
 	lib/libatparser.so \
 	lib/libboost.so \
