@@ -21,7 +21,6 @@ PROPRIETARY_FILES := \
 	bin/ext_data.sh \
 	bin/ext_kill.sh \
 	bin/ext_symlink.sh \
-	bin/gps.cer \
 	bin/lpm \
 	bin/macloader \
 	bin/modemd \
@@ -29,6 +28,7 @@ PROPRIETARY_FILES := \
 	bin/phoneserver \
 	bin/refnotify \
 	bin/rild \
+	etc/AGPS_CA.pem \
 	framework/com.google.widevine.software.drm.jar \
 	lib/egl/libEGL_mali.so \
 	lib/egl/libGLESv1_CM_mali.so \
