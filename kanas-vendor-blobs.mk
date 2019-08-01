@@ -21,31 +21,33 @@ PROPRIETARY_FILES_VENDOR := \
 	bin/ext_data.sh \
 	bin/ext_kill.sh \
 	bin/ext_symlink.sh \
-	bin/gps.cer \
 	bin/lpm \
 	bin/macloader \
 	bin/nvitemd \
 	bin/phoneserver \
 	bin/refnotify \
+	etc/AGPS_CA.pem \
 	etc/MSLConfig.txt \
+	etc/gps.conf \
 	etc/mrvl_agps_default.conf \
 	etc/mrvl_gps_platform.conf \
+	etc/permissions/com.google.widevine.software.drm.xml \
 	etc/pxa_testcfg.ini \
 	etc/rom.bin \
-	etc/wifi/bcmdhd_p2p.bin \
 	etc/wifi/bcmdhd_apsta.bin \
-	etc/wifi/bcmdhd_sta.bin \
 	etc/wifi/bcmdhd_mfg.bin \
+	etc/wifi/bcmdhd_p2p.bin \
+	etc/wifi/bcmdhd_sta.bin \
 	etc/wifi/nvram_net.txt \
 	etc/wifi/nvram_mfg.txt \
-	etc/gps.conf \
-	lib/libagps_hal.so \
+	framework/com.google.widevine.software.drm.jar \
 	lib/egl/libEGL_mali.so \
 	lib/egl/libGLESv1_CM_mali.so \
 	lib/egl/libGLESv2_mali.so \
 	lib/hw/camera2.sc8830.so \
 	lib/hw/camera.sc8830.so \
-	lib/hw/gps.default.so \
+	lib/hw/gps.vendor.sc8830.so \
+	lib/libagps_hal.so \
 	lib/libatparser.so \
 	lib/libboost.so \
 	lib/libfactoryutil.so \
@@ -94,8 +96,12 @@ PROPRIETARY_FILES_VENDOR := \
 	media/Disconnected.qmg
 
 # All other files that really needed to go to the /system/ partition
+# TODO: We could just merge these with the rest of the tree, no?
 PROPRIETARY_FILES_SYSTEM := \
 	vendor/firmware/BCM4330B1_002.001.003.1025.1303.hcd \
+	vendor/lib/libWVStreamControlAPI_L3.so \
+	vendor/lib/libwvdrm_L3.so \
+	vendor/lib/mediadrm/libwvdrmengine.so \
 	vendor/firmware/vbc_eq
 
 PRODUCT_COPY_FILES += \
