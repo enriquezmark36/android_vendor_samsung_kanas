@@ -23,9 +23,7 @@ PROPRIETARY_FILES_VENDOR := \
 	bin/ext_symlink.sh \
 	bin/lpm \
 	bin/macloader \
-	bin/nvitemd \
 	bin/phoneserver \
-	bin/refnotify \
 	etc/AGPS_CA.pem \
 	etc/MSLConfig.txt \
 	etc/gps.conf \
