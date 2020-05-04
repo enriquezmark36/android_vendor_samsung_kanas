@@ -42,17 +42,12 @@ PROPRIETARY_FILES_VENDOR := \
 	lib/egl/libEGL_mali.so \
 	lib/egl/libGLESv1_CM_mali.so \
 	lib/egl/libGLESv2_mali.so \
-	lib/hw/camera2.sc8830.so \
-	lib/hw/camera.sc8830.so \
 	lib/hw/gps.vendor.sc8830.so \
 	lib/libagps_hal.so \
 	lib/libatparser.so \
 	lib/libboost.so \
 	lib/libfactoryutil.so \
-	lib/libisp.so \
 	lib/libMali.so \
-	lib/libmorpho_easy_hdr.so \
-	lib/libmorpho_facesolid.so \
 	lib/libomission_avoidance.so \
 	lib/libomx_aacdec_sprd.so \
 	lib/libomx_avcdec_hw_sprd.so \
