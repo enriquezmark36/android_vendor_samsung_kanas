@@ -25,6 +25,8 @@ PROPRIETARY_FILES_VENDOR := \
 	bin/macloader \
 	bin/phoneserver \
 	etc/AGPS_CA.pem \
+	etc/plmn_delta.bin \
+	etc/plmn_se13.bin \
 	etc/MSLConfig.txt \
 	etc/gps.conf \
 	etc/mrvl_agps_default.conf \
