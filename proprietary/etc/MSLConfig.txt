@@ -50,12 +50,12 @@ Model_ID: Q1MwMg
 // License Key file path. Path to the RxN license key file that is used to support evaluation or licensed product use.
 // Note that the path is typically relative but can be explicit from file system root. Max path is 512 chars.
 // Default behaviour is to have the key file adjacent to the executable that uses the MSL library (./license.key)
-Lic_Key_Path: /system/etc/license.key
+Lic_Key_Path: /vendor/etc/license.key
 
 // Security Key file path. Path to the RxN security key file that is used to support evalutation or licensed product use.
 // Note that the path is typically relative but can be explicit from file system root. Max path is 512 chars.
 // Default behaviour is to have the key file adjacent to the executable that consumes the MSL library (./security.key)
-Sec_Key_Path: /system/etc/security.key
+Sec_Key_Path: /vendor/etc/security.key
 
 // Pantry file path. Path to the PGPS local data store.
 // The following folders will be created under it: pred and eph 
