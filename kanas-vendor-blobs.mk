@@ -29,6 +29,9 @@ PROPRIETARY_FILES_VENDOR := \
 	etc/plmn_se13.bin \
 	etc/MSLConfig.txt \
 	etc/gps.conf \
+	etc/license.key \
+	etc/security.key \
+	etc/rxn_config_data \
 	etc/mrvl_agps_default.conf \
 	etc/mrvl_gps_platform.conf \
 	etc/permissions/com.google.widevine.software.drm.xml \
