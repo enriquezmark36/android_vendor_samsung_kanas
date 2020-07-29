@@ -100,7 +100,6 @@ PROPRIETARY_FILES_SYSTEM := \
 	vendor/lib/libWVStreamControlAPI_L3.so \
 	vendor/lib/libwvdrm_L3.so \
 	vendor/lib/mediadrm/libwvdrmengine.so \
-	vendor/firmware/vbc_eq
 
 PRODUCT_COPY_FILES += \
 	$(foreach f,$(PROPRIETARY_FILES_SYSTEM),vendor/samsung/kanas/proprietary/$(f):system/$(f)) \
