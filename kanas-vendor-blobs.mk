@@ -28,7 +28,6 @@ PROPRIETARY_FILES_VENDOR := \
 	etc/plmn_delta.bin \
 	etc/plmn_se13.bin \
 	etc/MSLConfig.txt \
-	etc/gps.conf \
 	etc/license.key \
 	etc/security.key \
 	etc/rxn_config_data \
